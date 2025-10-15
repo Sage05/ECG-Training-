@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyTorch Models
+*.pth
+*.pt
+best_*.pth
+checkpoint*.pth
+
+# Data Files (Don't upload large datasets)
+*.parquet
+*.csv
+*.hdf5
+*.h5
+data/
+datasets/
+raw_data/
+
+# Outputs
+outputs/
+results/
+logs/
+*.log
+
+# Confusion Matrix Images
+confusion_matrix*.png
+new_dataset_confusion_matrix.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dashboard data (optional - include if you want to track metrics)
+# dashboard_data/*.json
+
+# Temporary files
+*.tmp
+temp/
+tmp/
